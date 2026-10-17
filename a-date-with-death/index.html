@@ -1,1 +1,42 @@
-PLACEHOLDER
+<!-- ultimate game stash FILE -->
+<!-- shxyder -->
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>A Date with Death</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    html { background: #444; font-family: sans-serif; }
+    body, html { overscroll-behavior: none; margin: 0; padding: 0; overflow: hidden; height: 100%; width: 100%; }
+    #canvas, #overlayDiv { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0 none; }
+    #canvas { background: #000; }
+    .visible { visibility: visible; opacity: 1.0; transition: opacity .1s linear; }
+    .hidden { visibility: hidden; opacity: 0; transition: visibility 0s .25s, opacity .25s linear; }
+    
+    #statusDiv { 
+        background: rgba(0, 0, 0, 0.85); 
+        width: 60%; margin: auto; min-width: 340px; padding: 20px; 
+        position: absolute; top: 25%; left: 0; right: 0; 
+        border-radius: 10px; color: #fff; text-align: center;
+    }
+    #statusDiv h2 { margin: 0 0 10px 0; }
+    #statusDiv progress { width: 100%; height: 20px; }
+  </style>
+</head>
+
+<body>
+  <div id="overlayDiv" class="visible">
+    <div id="statusDiv">
+      <h2>Loading...</h2>
+      <progress id="progressBar" value="0" max="100"></progress>
+      <p id="statusText">Initializing...</p>
+    </div>
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/a-date-with-death/index.js"></script>
+</body>
+</html>
