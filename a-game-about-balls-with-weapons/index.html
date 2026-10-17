@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>Game</title>
+	<style>
+		html,
+		body,
+		#canvas {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			width: 100%;
+			height: 100%
+		}
+		body {
+			overflow: hidden;
+			background: #000
+		}
+		#status {
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			background: #000;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-family: sans-serif
+		}
+	</style>
+</head>
+
+<body>
+	<div id="status">Loading...</div>
+	<canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas>
+	<script src="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/a-game-about-balls-with-weapons/index.js"></script>
+</body>
+
+</html>

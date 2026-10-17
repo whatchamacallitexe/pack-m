@@ -1,0 +1,24 @@
+<!-- shxyder -->
+<!-- ultimate game stash file -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+  <title>Ambulance Rush</title>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <style>body{margin:0;background:#000;overflow:hidden}#player{width:100vw;height:100vh}</style>
+</head>
+<body>
+  <div id="player"></div>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("DOMContentLoaded", () => {
+      const ruffle = window.RufflePlayer.newest();
+      const player = ruffle.createPlayer();
+      document.getElementById("player").appendChild(player);
+      player.load("https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/ambulance-rush/AmbulanceRush.swf");
+    });
+  </script>
+</body>
+</html>

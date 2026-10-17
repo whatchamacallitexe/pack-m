@@ -1,0 +1,30 @@
+<!-- Ultimate Game Stash file-->
+<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
+<!--This is a platforming and shooting game. Uses jsdelivr-->
+
+<Module>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Absolute Madness</title>
+  <style>
+    body { margin: 0; background: #000; overflow: hidden; }
+    #canvas { width: 100%; height: 100%; display: block; }
+  </style>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+  <div id="container">
+    <object type="application/x-shockwave-flash" data="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/absolute-madness/AbsoluteMadness.swf" width="100%" height="100%">
+      <param name="movie" value="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/absolute-madness/AbsoluteMadness.swf" />
+      <param name="allowScriptAccess" value="always" />
+      <param name="scale" value="noscale" />
+    </object>
+  </div>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = { autoplay: "on", unmuteOverlay: "hidden" };
+  </script>
+</body>
+</html>
