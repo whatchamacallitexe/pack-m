@@ -1,0 +1,50 @@
+<html>
+  <!-- Ultimate Game Stash file-->
+  <!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
+
+  <head>
+    <script>
+      window.gameconfig = {
+        name: "Age of Empires - The Age of Kings (USA)",
+        url: "https://cdn.jsdelivr.net/gh/greeniYT/ROM-s@main/aoe/Age%20of%20Empires%20-%20The%20Age%20of%20Kings%20(USA).nds",
+        core: "nds",
+        min: 1,
+        max: 4,
+      };
+    </script>
+    <script>
+      function mergeFiles(fileParts, cb) {
+        return new Promise((resolve, reject) => {
+          let buffers = [];
+          function fetchPart(index) {
+            if (index >= fileParts.length) {
+              let mergedBlob = new Blob(buffers);
+              let mergedFileUrl = URL.createObjectURL(mergedBlob);
+              resolve(mergedFileUrl);
+              return;
+            }
+            fetch(fileParts[index])
+              .then((response) => response.arrayBuffer())
+              .then((buffer) => {
+                buffers.push(buffer);
+                fetchPart(index + 1);
+              })
+              .catch(reject);
+          }
+          fetchPart(0);
+        });
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/bubblfan/emu@master/loader.js"></script>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script>
+      EJS_player = "#game";
+      EJS_core = window.gameconfig.core;
+      EJS_gameUrl = window.gameconfig.url;
+      EJS_pathtodata = "https://cdn.jsdelivr.net/gh/bubblfan/emu@master/";
+      EJS_startOnLoaded = true;
+    </script>
+  </body>
+</html>
