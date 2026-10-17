@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Angry Birds Slingshot Frenzy</title>
+<style>
+html, body { padding: 0; margin: 0; overflow: hidden; background: #000; }
+canvas { display: block; }
+</style>
+<script>
+var ASSET_BASE = "https://cdn.jsdelivr.net/gh/UGBONTOP/firebaseport-angrybirds-remaster/";
+function fixUrl(url) {
+  if (!url || typeof url !== "string") return url;
+  if (url.indexOf("http") === 0 || url.indexOf("data:") === 0 || url.indexOf("blob:") === 0) return url;
+  return ASSET_BASE + url.replace(/^\.\//, "");
+}
+var RealXHR = window.XMLHttpRequest;
+window.XMLHttpRequest = function() {
+  var xhr = new RealXHR();
+  var realOpen = xhr.open.bind(xhr);
+  xhr.open = function(method, url, async, user, pass) {
+    return realOpen(method, fixUrl(url), async !== false, user, pass);
+  };
+  return xhr;
+};
+window.XMLHttpRequest.prototype = RealXHR.prototype;
+var realFetch = window.fetch;
+window.fetch = function(resource, init) {
+  if (typeof resource === "string") resource = fixUrl(resource);
+  return realFetch(resource, init);
+};
+</script>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/gh/UGBONTOP/firebaseport-angrybirds-remaster/box2d.asm.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/UGBONTOP/firebaseport-angrybirds-remaster/opus.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/UGBONTOP/firebaseport-angrybirds-remaster/offlineclient.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/UGBONTOP/firebaseport-angrybirds-remaster/c2runtime.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/UGBONTOP/firebaseport-angrybirds-remaster/start.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/UGBONTOP/firebaseport-angrybirds-remaster/register-sw.js"></script>
+</body>
+</html>
