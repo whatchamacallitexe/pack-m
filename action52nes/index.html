@@ -1,0 +1,29 @@
+<html>
+  <!-- Ultimate Game Stash file-->
+  <!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
+
+  <head>
+    <script src="//www.google.com/jsapi"></script>
+    <script>
+    alert("Look. If you are playing this, please make sure you know what you are getting into. Action 52 is an infamous game known for being terrible. This game is also well known for having a list of bugs big enough to honestly look like they belong in a novel.");
+    </script>
+    <script>
+      window.gameconfig = {
+        name: "Action 52 (NES)",
+        url: "https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/ROMs/action52nes.zip",
+        core: "nes",
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/bubblfan/emu@master/loader.js"></script>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script>
+      EJS_player = "#game";
+      EJS_core = "nes";
+      EJS_gameUrl = "https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/ROMs/action52nes.zip";
+      EJS_pathtodata = "https://cdn.jsdelivr.net/gh/bubblfan/emu@master/";
+      EJS_startOnLoaded = true;
+    </script>
+  </body>
+</html>
