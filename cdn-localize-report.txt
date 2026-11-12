@@ -8,6 +8,7 @@ FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a5648
 
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
+FILE absolute-madness: https://unpkg.com/@ruffle-rs/ruffle -> ../_shared/22428d3d713f-ruffle
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/absolute-madness/AbsoluteMadness.swf: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@f8f6dcef21a8c9dd51e8e94fe6c61c09a23da4b9/ace%20combat%202/Ace%20Combat%202%20(USA).chd: curl: (22) The requested URL returned error: 404
@@ -52,6 +53,7 @@ FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/a-date-with-death/adat
 
 FAILED https://cdn.jsdelivr.net/gh/jackilyna/codemotion2015@6ed8c2fb61182b360a852e0417cc2d6370d5164e/flg/adayintheoffice.swf: curl: (22) The requested URL returned error: 404
 
+FILE advent-neon: https://unpkg.com/@ruffle-rs/ruffle -> ../_shared/22428d3d713f-ruffle
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/adventneon/adventneon.swf: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/jackilyna/codemotion2015@6ed8c2fb61182b360a852e0417cc2d6370d5164e/flg/adventneon.swf: curl: (22) The requested URL returned error: 404
@@ -87,6 +89,7 @@ FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a5648
 
 FAILED https://cdn.jsdelivr.net/gh/jackilyna/codemotion2015@6ed8c2fb61182b360a852e0417cc2d6370d5164e/flg/amaze.swf: curl: (22) The requested URL returned error: 404
 
+FILE ambulance-rush: https://unpkg.com/@ruffle-rs/ruffle -> ../_shared/22428d3d713f-ruffle
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/ambulance-rush/AmbulanceRush.swf: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
@@ -117,7 +120,6 @@ FAILED https://cdn.jsdelivr.net/gh/jackilyna/codemotion2015@6ed8c2fb61182b360a85
 
 FAILED https://cdn.jsdelivr.net/gh/jackilyna/codemotion2015@6ed8c2fb61182b360a852e0417cc2d6370d5164e/flg/amorphous.swf: curl: (22) The requested URL returned error: 404
 
-FILE ancientsins: https://raw.githubusercontent.com/Stinkalistic/junk/refs/heads/main/ancientsins/Build/game.wasm.wasm -> ../_shared/4e1f5229448e-game.wasm.wasm
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/angry-birds-2/TemplateData/UnityProgress.js: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/angry-birds-2/Build/UnityLoader.js: curl: (22) The requested URL returned error: 404
@@ -137,13 +139,11 @@ FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a5648
 
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE arewethereyet: https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/AWTY/TemplateData/style.css -> assets/cdn/57eff636-style.css
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
 BASE SKIP 164.4MB bubbls/UGS-Assets@15e85c42612500024c1cb8743f7f0e79fbc6ccbd/examination or smth
-FILE attackhole: https://rawcdn.githack.com/bubbls/youtube-playables/main/ytgame.js -> assets/cdn/68ca46c5-ytgame.js
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4d10be24618d078dd9ea749a8e605f6474addc52/avalanche.swf: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
@@ -164,13 +164,9 @@ FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a5648
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@63f44d001c95b775db57a9796ec7668541975062/B3113/b3313.z64: curl: (22) The requested URL returned error: 404
 
-FILE backrooms-2d: https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.loader.js -> assets/cdn/628d8477-7-21-23.loader.js
 SKIP size 77.5MB https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.data
-FILE backrooms-2d: https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.framework.js -> assets/cdn/d2cec1ef-7-21-23.framework.js
-FILE backrooms-2d: https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.wasm -> assets/cdn/7df91c1d-7-21-23.wasm
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE baldis-basics: https://rawcdn.githack.com/Nailington/3kh0-assets/aeb371b7e88542fd5e61eeed9e967a446d84fe1b/baldis-basics/baldi.json -> assets/cdn/eac79895-baldi.json
 FAILED https://cdn.jsdelivr.net/gh/genizy/bl/TemplateData/favicon.ico: curl: (22) The requested URL returned error: 403
 
 FAILED https://cdn.jsdelivr.net/gh/genizy/bl/TemplateData/style.css: curl: (22) The requested URL returned error: 403
