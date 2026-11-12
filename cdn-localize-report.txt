@@ -170,4 +170,4 @@ FAILED https://cdn.jsdelivr.net/gh/genizy/bl/TemplateData/style.css: curl: (22) 
 
 FAILED https://cdn.jsdelivr.net/gh/genizy/bl/ServiceWorker.js: curl: (22) The requested URL returned error: 403
 
-RUFFLE FAIL module 'urllib' has no attribute 'request'
+RUFFLE OK 1 wrappers
